@@ -1,0 +1,25 @@
+{
+  "name": "apicluster",
+  "version": "1.0.0",
+  "description": "Enable to manage your Rest API URLs in a efficient way !",
+  "main": "ApiCluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramsunvtech/apicluster.git"
+  },
+  "keywords": [
+    "Endpoint Library",
+    "Rest API Library",
+    "API URL Library",
+    "Versionized API URL"
+  ],
+  "author": "Venkatraman <ramsunvtech@gmail.com> (https://in.linkedin.com/in/venkatarchitect)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramsunvtech/apicluster/issues"
+  },
+  "homepage": "https://github.com/ramsunvtech/apicluster"
+}
