@@ -17,7 +17,7 @@
   // the browser, add `ApiCluster` as a global object.
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = _;
+      exports = module.exports = ApiCluster;
     }
     exports.ApiCluster = ApiCluster;
   } else {
