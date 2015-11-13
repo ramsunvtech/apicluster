@@ -1,6 +1,6 @@
 {
   "name": "apicluster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable to manage your Rest API URLs in a efficient way !",
   "main": "ApiCluster.js",
   "scripts": {
