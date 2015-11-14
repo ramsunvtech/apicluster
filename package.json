@@ -4,7 +4,7 @@
   "description": "Enable to manage your Rest API URLs in a efficient way !",
   "main": "ApiCluster.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
