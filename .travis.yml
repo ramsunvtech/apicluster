@@ -3,6 +3,8 @@ node_js:
   - "0.10"
 before_install:
   - npm install -g karma
+  - npm install -g karma-chrome-launcher
+  - npm install -g karma-jasmine
 script:
   - npm test
   - karma start karma.conf.js
