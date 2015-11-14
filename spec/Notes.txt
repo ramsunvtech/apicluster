@@ -1,0 +1,63 @@
+Invalid JSON - 9
+>>>>>>>>>>>>>>>>>>>>
+Not Sending Anything (Undefined Parameter)
+Sending Number as Param
+Sending Decimal as Param
+Sending String as Param
+Sending Array as Param
+Sending Null as Param
+Sending Empty String as Param
+Sending Boolean as Param
+Sending Object Constructor as Param
+
+Invalid String - 8
+>>>>>>>>>>>>>>>>>>>>
+Not Sending Anything (Undefined Parameter)
+Sending Number as Param
+Sending Decimal as Param
+Sending Array as Param
+Sending Null as Param
+Sending Empty String as Param
+Sending Boolean as Param
+Sending Object Constructor as Param
+
+
+defaults() / addAnother() - 38
+------------------------------
+Test "Invalid JSON" for Method Argument.
+Sending Invalid Structure for Method Argument.
+Missing Name property.
+Test "Invalid String" for Name Property.
+Test "Invalid JSON" for Config Property.
+Missing Endpoints Property
+Test "Invalid JSON" for Endpoints Property.
+
+use() - 8
+-------
+Test "Invalid String" for Method Argument.
+
+get() - 8
+-------
+Test "Invalid String" for Method Argument.
+
+arg() - 9
+-------
+Test "Invalid JSON" for Method Argument.
+
+query() - 9
+-------
+Test "Invalid JSON" for Method Argument.
+
+url()
+-------
+
+Total Test Cases: 72
+
+Why API Cluster?
+Why addAnother() ?
+Top 7 Questions?
+
+Other Test Cases
+Slashes in Endpoints Property.
+Recursive Testing
+Rearrangement of Methods
