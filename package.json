@@ -4,10 +4,12 @@
   "description": "Enable to manage your Rest API URLs in a efficient way !",
   "main": "ApiCluster.js",
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "./node_modules/karma/bin/karma start"
   },
   "devDependencies": {
-    "karma": "^0.13.13"
+    "karma": "^0.13.13",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.5",
   },
   "repository": {
     "type": "git",
