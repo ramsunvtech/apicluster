@@ -13,4 +13,6 @@ Api Cluster will be available from Dec 2015
 [travis-url]: https://travis-ci.org/ramsunvtech/apicluster
 [travis-image]: http://img.shields.io/travis/ramsunvtech/apicluster.svg
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ramsunvtech/apicluster/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
