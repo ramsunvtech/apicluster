@@ -16,7 +16,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'ApiCluster.js',
-      'spec/general.js',
+      'test/general.js',
     ],
 
 
