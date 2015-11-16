@@ -25,7 +25,7 @@
   }
 
   // Current version.
-  ApiCluster.VERSION = '0.0.1';
+  ApiCluster.VERSION = '1.0.3';
 
   // Generated Endpoint.
   ApiCluster.generated = '';
