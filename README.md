@@ -20,7 +20,9 @@ API Cluster is a API Endpoint Utility Library that will help you organizing the 
 
 API Cluster lets you quit messing with concatenation on URL and their values !
 
+## Want to contribute?
 
+Anyone can help make this project better - check out the [Contributing guide](/CONTRIBUTING.md)!
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ramsunvtech/apicluster/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
