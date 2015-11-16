@@ -1,4 +1,4 @@
-# Api Cluster: API Endpoint Librar
+# Api Cluster: API Endpoint Library
 **The streaming build system**
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status](https://coveralls.io/repos/ramsunvtech/apicluster/badge.svg?branch=master&service=github)](https://coveralls.io/github/ramsunvtech/apicluster?branch=master) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ramsunvtech/apicluster?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -20,7 +20,9 @@ API Cluster is a API Endpoint Utility Library that will help you organizing the 
 
 API Cluster lets you quit messing with concatenation on URL and their values !
 
+## Want to contribute?
 
+Anyone can help make this project better - check out the [Contributing guide](/CONTRIBUTING.md)!
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ramsunvtech/apicluster/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
