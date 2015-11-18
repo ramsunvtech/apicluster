@@ -29,6 +29,7 @@ API Cluster lets you quit messing with concatenation on URL and their values and
 
 ```sh
 $ npm install --global apicluster
+```
 
 ## Want to contribute?
 
