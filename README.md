@@ -83,7 +83,7 @@ ApiCluster
       name: 'v2',
 
       config: {
-        'employee': 'employee/v2',
+        'employee': 'emp/v2',
         'details': 'detailed',
         'timesheet': 'timesheet'
       },
@@ -93,6 +93,42 @@ ApiCluster
       }
   });
 ```
+
+#### 4. Get your dynamic Endpoint URL without concatenating from the Configured Endpoint list from `defaults()` method.
+
+```javascript
+var empDetails = ApiCluster
+                  .get('empDetails')
+                  .arg({
+                    'empId': 1000 
+                  })
+                  .query({
+                    'confirm': 'yes',
+                    'testAccount': 'yes'
+                  })
+                  .url();
+```
+```
+Expected Output: emp/details/1000/profile?confirm=yes&testAccount=yes
+```
+#### 5. Get Endpoint URL from the Configured Endpoint list from `v1` Group defined in `addAnother()` method.
+```javascript
+var empDetails = ApiCluster
+                  .use('v1')
+                  .get('empDetails')
+                  .arg({
+                    'empId': 1000 
+                  })
+                  .query({
+                    'confirm': 'yes',
+                    'testAccount': 'yes'
+                  })
+                  .url();
+```
+```
+Expected Output: emp/v1/details/1000/profile?confirm=yes&testAccount=yes
+```
+
 
 ## Want to contribute?
 
