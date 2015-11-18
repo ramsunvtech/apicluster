@@ -94,7 +94,7 @@ ApiCluster
   });
 ```
 
-#### 4. Get your dynamic Endpoint URL without concatenating from the Configured Endpoint list from `defaults()` method.
+#### 4. Get your dynamic Endpoint URL from the Configured Endpoint list from `defaults()` method.
 
 ```javascript
 var empDetails = ApiCluster
