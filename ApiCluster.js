@@ -89,7 +89,7 @@
       }
       else {
         keyWithPrefix = key;
-        ApiClusterPrefix = ApiCluster.getConfig(prefix);
+        ApiClusterPrefix = ApiCluster.getConfig(prefix) || '';
 
         if(prefix) {
           keyWithPrefix = prefix + apiLabelSeparator + key;
