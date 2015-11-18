@@ -21,7 +21,14 @@
 
 API Cluster is a API Endpoint Utility Library that will help you organizing the Endpoints in one stop place and add multiple groups for versionzing, if you are depend on API Serving Team.
 
-API Cluster lets you quit messing with concatenation on URL and their values !
+API Cluster lets you quit messing with concatenation on URL and their values and it will be available in (Node) Server side and browser) Client Side.
+
+# Getting Started
+
+#### 1. Install api cluster globally:
+
+```sh
+$ npm install --global apicluster
 
 ## Want to contribute?
 
