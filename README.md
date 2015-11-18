@@ -1,3 +1,7 @@
+<p align="center">
+    <img height="240" width="235" src="https://github.com/ramsunvtech/apicluster/raw/master/api-cluster.png">
+</p>
+
 Api Cluster will be available from Dec 2015
 
 # Api Cluster: API Endpoint Library
