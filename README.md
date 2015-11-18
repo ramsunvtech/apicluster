@@ -129,7 +129,7 @@ var empDetails = ApiCluster
 Expected Output: emp/v1/details/1000/profile?confirm=yes&testAccount=yes
 ```
 
-## Example on how to use it Node.
+## Example on how to use it in Node.
 
 ```javascript
 var http = require('http'),
