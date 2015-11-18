@@ -31,6 +31,69 @@ API Cluster lets you quit messing with concatenation on URL and their values and
 $ npm install --global apicluster
 ```
 
+#### 2. Create Config and define endpoints.
+
+```javascript
+ApiCluster
+  .defaults({
+      name: 'mydefault',
+
+      config: {
+        'employee': 'emp',
+        'details': 'details',
+        'timesheet': 'timesheet'
+      },
+
+      endpoints: {
+        "empDetails": "_employee_/_details_/:empId/profile"
+      }
+  });
+```
+
+#### 2. Add multiple groups.
+```javascript
+ApiCluster
+  .defaults({
+      name: 'mydefault',
+
+      config: {
+        'employee': 'emp',
+        'details': 'details',
+        'timesheet': 'timesheet'
+      },
+
+      endpoints: {
+        "empDetails": "_employee_/_details_/:empId/profile"
+      }
+  })
+  .addAnother({
+      name: 'v1',
+
+      config: {
+        'employee': 'emp/v1',
+        'details': 'detailed',
+        'timesheet': 'timesheet'
+      },
+
+      endpoints: {
+        "empDetails": "_employee_/_details_/:empId/profile"
+      }
+  })
+  .addAnother({
+      name: 'v2',
+
+      config: {
+        'employee': 'employee/v2',
+        'details': 'detailed',
+        'timesheet': 'timesheet'
+      },
+
+      endpoints: {
+        "empDetails": "_employee_/_details_/:empId/profile"
+      }
+  });
+```
+
 ## Want to contribute?
 
 Anyone can help make this project better - check out the [Contributing guide](/CONTRIBUTING.md)!
