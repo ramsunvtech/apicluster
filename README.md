@@ -129,6 +129,55 @@ var empDetails = ApiCluster
 Expected Output: emp/v1/details/1000/profile?confirm=yes&testAccount=yes
 ```
 
+## Example on how to use it Node.
+
+```javascript
+var http = require('http'),
+	ApiCluster = require('apicluster');
+
+ApiCluster
+  .defaults({
+      name: 'mydefault',
+ 
+      config: {
+        'employee': 'emp',
+        'details': 'details',
+        'timesheet': 'timesheet'
+      },
+ 
+      endpoints: {
+        "empDetails": "_employee_/_details_/:empId/profile"
+      }
+  });
+
+//Lets define a port we want to listen to
+const PORT = 9000; 
+
+// Function which handles requests and send response
+function handleRequest(request, response) {
+	var empDetailURL = ApiCluster
+                  .get('empDetails')
+                  .arg({
+                    'empId': 1000 
+                  })
+                  .query({
+                    'confirm': 'yes',
+                    'testAccount': 'yes'
+                  })
+                  .url();
+    response.end('<h1>Generated Endpoint URL:<br> '
+    	+ empDetailURL + '</h1>');
+}
+
+//Create a server
+var server = http.createServer(handleRequest);
+
+//Lets start our server
+server.listen(PORT, function(){
+    // Callback triggered when server is successfully listening. Hurray!
+    console.log("Server listening on: http://localhost:%s", PORT);
+});
+```
 
 ## Want to contribute?
 
