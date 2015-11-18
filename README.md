@@ -25,7 +25,7 @@ API Cluster lets you quit messing with concatenation on URL and their values and
 
 # Getting Started
 
-#### 1. Install api cluster globally:
+#### 1. Install api cluster globally (server side) or add the apicluster.js in your file.
 
 ```sh
 $ npm install --global apicluster
