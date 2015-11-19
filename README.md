@@ -21,9 +21,9 @@
 API Cluster is free and open source Javascript library for organizing endpoint in efficient way.
 
 ## Why API Cluster?
-Add multiple groups for versioning.
-Quit messing with concatenation on URL with + operator.
-Available in (Node) Server side and (browser) Client Side.
+Add multiple groups for versioning.  
+Quit messing with concatenation on URL with + operator.  
+Available in (Node) Server side and (browser) Client Side.  
 
 # Getting Started
 
