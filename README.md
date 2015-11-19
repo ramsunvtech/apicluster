@@ -3,7 +3,7 @@
 </p>
 
 # Api Cluster
-**API Endpoint Library**
+**Endpoint Library**
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 <!--[![Coverage Status](https://coveralls.io/repos/ramsunvtech/apicluster/badge.svg?branch=master&service=github)](https://coveralls.io/github/ramsunvtech/apicluster?branch=master) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ramsunvtech/apicluster?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)-->
@@ -18,17 +18,20 @@
 [travis-image]: http://img.shields.io/travis/ramsunvtech/apicluster.svg
 
 ## What is API Cluster?
+API Cluster is free and open source Javascript library for organizing endpoint in efficient way.
 
-API Cluster is a API Endpoint Utility Library that will help you organizing the Endpoints in one stop place and add multiple groups for versionzing, if you are depend on API Serving Team.
-
-API Cluster lets you quit messing with concatenation on URL and their values and it will be available in (Node) Server side and browser) Client Side.
+## Why API Cluster?
+Add multiple groups for versioning.
+Quit messing with concatenation on URL with + operator.
+Available in (Node) Server side and (browser) Client Side.
 
 # Getting Started
 
-#### 1. Install api cluster globally (server side) or add the apicluster.js in your file.
+#### 1. Install api cluster globally (server side) or include the apicluster.js in your file.
 
 ```sh
 $ npm install --global apicluster
+<script src="ApiCluster.js"></script>
 ```
 
 #### 2. Create Config and define endpoints.
