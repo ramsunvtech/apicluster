@@ -62,12 +62,12 @@
   ApiCluster.__switchToValue = function (definition) {
     var config = ApiCluster.data.config;
 
-    if( typeof config == 'object' ) {
+    if( config && typeof config === 'object' ) {
       for(var configName in config) {
         var constantName = ApiCluster.data.configPrefix + configName + ApiCluster.data.configSuffix,
             regEx = new RegExp(constantName,"g");
 
-        if( typeof definition == 'string' ) {
+        if( typeof definition === 'string' ) {
           definition = definition.replace(regEx, config[configName]);
         }
 
@@ -107,7 +107,7 @@
 
   // Push the Group to API URLs.
   ApiCluster.__setGroup = function (name, details) {
-    if( typeof name == 'string' && typeof details == 'object' ) {
+    if( typeof name === 'string' && typeof details === 'object' ) {
       ApiCluster.data.endpointPrefix = '';
       ApiCluster.data.definition[name] = details;
       ApiCluster.data.apiUrls[name] = {};
@@ -135,7 +135,7 @@
         details = options.endpoints,
         anotherGroups = ApiCluster.data.otherGroupList;
     
-    if( anotherGroups.constructor == Array && anotherGroups.indexOf(name) == -1) {
+    if( anotherGroups.constructor === Array && anotherGroups.indexOf(name) === -1) {
       ApiCluster.data.otherGroupList.push(name);
     }
     
@@ -168,7 +168,7 @@
   // Generate the Arguments.
   ApiCluster.arg = function (options) {
 
-    if( typeof options == 'object' ) {
+    if( typeof options === 'object' ) {
       for( var argName in options ) {
         var prefixedArgName = ApiCluster.data.argPrefix + argName,
             regEx = new RegExp(prefixedArgName,"g");
@@ -191,7 +191,7 @@
       for( var queryName in options ) {
         i++;
 
-        if(i == 1) {
+        if(i === 1) {
           queryString = '?';
         }
         else {
