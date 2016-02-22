@@ -38,6 +38,7 @@ $ npm install --global apicluster
 
 ```javascript
 ApiCluster
+  // Default Group.
   .defaults({
       name: 'mydefault',
 
@@ -53,9 +54,11 @@ ApiCluster
   });
 ```
 
-#### 2. Add multiple groups.
+#### 2. Add multiple endpoints groups.  
+
 ```javascript
 ApiCluster
+  // Default Group.
   .defaults({
       name: 'mydefault',
 
@@ -97,7 +100,7 @@ ApiCluster
   });
 ```
 
-#### 4. Get your dynamic Endpoint URL from the Configured Endpoint list from `defaults()` method.
+#### 4. Get your dynamic Endpoint URL from the Configured Endpoint list from Default Group defined in `defaults()` method.  
 
 ```javascript
 var empDetails = ApiCluster
@@ -114,7 +117,9 @@ var empDetails = ApiCluster
 ```
 Expected Output: emp/details/1000/profile?confirm=yes&testAccount=yes
 ```
-#### 5. Get Endpoint URL from the Configured Endpoint list from `v1` Group defined in `addAnother()` method.
+
+#### 5. Get Endpoint URL from the Configured Endpoint list from `v1` Group defined in `addAnother()` method.  
+
 ```javascript
 var empDetails = ApiCluster
                   .use('v1')
@@ -139,6 +144,7 @@ var http = require('http'),
 	ApiCluster = require('apicluster');
 
 ApiCluster
+  // Default Group.
   .defaults({
       name: 'mydefault',
  
